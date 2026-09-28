@@ -1,0 +1,19 @@
+[package]
+name = "wildcard-container-rs"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.85"
+description = ""
+license = "MIT"
+repository = "https://github.com/Calbona/wildcard-container"
+homepage = "https://github.com/Calbona/wildcard-container#readme"
+documentation = "https://docs.rs/wildcard-container-rs"
+readme = "README.md"
+keywords = ["data-structures"]
+categories = ["data-structures"]
+
+[lib]
+name = "wildcard-container"
+path = "src/lib.rs"
+
+[dependencies]
